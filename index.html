@@ -10,6 +10,27 @@
         h1 {
             color: brown;
         }
+        a:link{
+            background-color: transparent;
+            color: brown;
+            text-decoration: none;
+        }
+        a:visited{
+            background-color: transparent;
+            color: darkgoldenrod;
+            text-decoration: solid;
+                }
+        button{background-color: chartreuse;
+            border: 2px solid olive;
+            color:orangered;
+            font: bold oblique 14px cursive;
+        }
+        button:hover{background-color: red;
+            color: yellow;}
+
+        button:visited, button:active{color: grey}
+
+        
     </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -103,6 +124,11 @@ padding: 10px; color:DodgerBlue;">Lorem ipsum...</p>
     <button onclick="document.location='x.txt'">HTML Tutorial</button>
 
 
+    <p><img src="smiley.gif" alt="Smiley face" style="float:right;width:42px;height:42px;">
+        The image will float to the right of the text.</p>
+        
+        <p><img src="smiley.gif" alt="Smiley face" style="float:left;width:42px;height:42px;">
+        The image will float to the left of the text.</p>
 </body>
 
 </html>
