@@ -1,0 +1,56 @@
+git merge main
+git rebase main
+.................
+untrack
+git reset readme2.txt
+git rm --cached readme.txt
+git restore --staged readme.txt
+---------------------------
+git log 
+git log --oneline
+git log --pretty=oneline
+git log --pretty=oneline --graph
+git checkout <first few hash code>
+.............................
+
+[Config]
+
+git config -l
+git config -l --show-origin
+git config --global core.editor notepad
+
+------------------------------------------
+
+git diff 
+git diff <file>
+git diff --staged: This compares the changes between the staging area and the last commit.
+git diff <commit> <commit>: This compares the changes between two commits.
+git diff <branch>: This compares the changes between your current branch and another branch.
+
+------------------------------------------------------
+Add the remote repository https://repositoryURL under the name origin to your local repository:
+
+git remote add origin https://repositoryURL
+
+Push the first time to the main branch of the remote repository and set it as upstream:
+
+git push -u origin main
+
+Push the next commits to the remote repository:
+
+git push
+
+Clone a remote repository with the URL https://repositoryURL into a local repository on your machine:
+
+git clone https://repositoryURL
+
+Clone a remote repository into the current directory (Note the separate dot at the end that indicates the current directory):
+
+git clone https://repositoryURL .
+
+Fetch changes from the remote repository without merging them into your local branch:
+
+git fetch
+
+
+
