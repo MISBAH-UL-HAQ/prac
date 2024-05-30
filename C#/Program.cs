@@ -1,2 +1,4 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+string firstfriend="aku";
+string secondfriend="imu";
+Console.WriteLine($"My friends are {firstfriend} and {secondfriend}");
